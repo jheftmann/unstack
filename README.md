@@ -2,7 +2,7 @@
 A plugin for showing content by unstacking it as a user scrolls. Based on the [Small Victories](http://www.smallvictori.es) homepage.
 
 ## As a Small Victories Theme
-To use it as a Small Victories theme, go the developers.smallvictories Github.
+To use it as a Small Victories theme, go to https://github.com/smallvictories/developers.
 
 ## As a plugin
 1. Include `unstack.js` in your project. (You’ll also need jQuery.)
