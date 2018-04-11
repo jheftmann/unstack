@@ -29,7 +29,7 @@ unstack({
 });
 ```
 ```
-<div class="js-unstack"></div> <!-- show me -->
+<div class="js-unstack"></div> <!-- I'm showing -->
 <div class="js-unstack"></div> <!-- then show me -->
 <div class="js-unstack"></div> <!-- then show me -->
 ```
