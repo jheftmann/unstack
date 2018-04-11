@@ -5,12 +5,10 @@ A plugin for showing content by unstacking it as a user scrolls. Based on the [S
 To use it as a Small Victories theme, go the developers.smallvictories Github.
 
 ## As a plugin
-1. Include `unstack.js` in your project:
+1. Include `unstack.js` in your project. (You’ll also need jQuery.)
 ```
 <script src="unstack.js"></script>
 ```
-You’ll also need jQuery.
-
 2. Call the `unstack` function in your JS:
 ```
 unstack({
@@ -26,8 +24,6 @@ unstack({
 ```
 
 4. By default, `unstack` will look for sibling objects with the class `.js-unstack`. You can change this to match different objects depending on the structure of your page.
-
-### Variables
 ```
   unstack(
     objectClass: ".js-unstack", // these are the objects you want to unstack. You could use the class of an object already on your page.
