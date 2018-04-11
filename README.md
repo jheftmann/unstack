@@ -28,5 +28,10 @@ unstack({
   layout: 'body'                           // this is the parent of the stacked objects
 });
 ```
+```
+<div class="js-unstack"></div> <!-- show me -->
+<div class="js-unstack"></div> <!-- then show me -->
+<div class="js-unstack"></div> <!-- then show me -->
+```
 
 5. By default, the `unstack` object has a position of fixed. Otherwise you can adapt its styles to your specific layout. See `/demo` for example.
