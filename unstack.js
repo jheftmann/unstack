@@ -28,8 +28,7 @@
           $(objs).each(function(i){
             var z = 100 + (-i);
             $(this).css('z-index', z);
-
-            console.log('z' + z);
+            // console.log('z' + z);
           });
         }
         zIndex();
@@ -39,7 +38,6 @@
 
         // scroll out content modules
         var obj = undefined;
-
         var calc = function(newObj) {
           obj = newObj;
           $(obj).addClass('is-released');
