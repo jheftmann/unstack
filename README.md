@@ -8,7 +8,7 @@ To use it as a Small Victories theme, go the developers.smallvictories Github.
 1. Include `unstack.js` in your project:
 ```
 <script src="unstack.js"></script>
-``
+```
 You’ll also need jQuery.
 
 2. Call the `unstack` function in your JS:
