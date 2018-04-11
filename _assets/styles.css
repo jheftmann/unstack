@@ -1,3 +1,4 @@
+/* Theme styles */
 * {
   margin: 0;
   box-sizing: border-box;
@@ -5,19 +6,27 @@
 }
 
 body {
-  /* height: 6000px; */
-  background: #efefef;
-
+  background: #e5ddd8;
 }
 
 img {
   width: 100%;
-  height: auto;
   max-width: 100%;
+  height: auto;
 }
 
-.layout {
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: -.03em;
+}
 
+h1 a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
 }
 
 .card {
@@ -25,7 +34,6 @@ img {
   height: 100vh;
   top: 0;
   left: 0;
-  position: fixed;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -39,13 +47,40 @@ img {
   margin: 0 auto;
 }
 
+.card:nth-child(2n) img {
+  top: 3vh;
+  left: 3vh;
+  height: 84vh;
+}
+
+.card:nth-child(3n) img {
+  top: -5vh;
+  right: -3vh;
+  height: 80vh;
+}
+
+.card:nth-child(4n) img {
+  top: -3vh;
+  left: -3vh;
+  height: 82vh;
+}
+
 .card h1 {
   width: 40%;
   margin: 0 auto;
   align-self: flex-end;
 }
 
+.card.info {
+  position: fixed;
+}
+
+/* ------------------- */
 /* Required by unstack */
+/* ------------------- */
+.js-unstack {
+  position: fixed;
+}
 .is-released {
   position: relative;
 }
