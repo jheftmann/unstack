@@ -1,0 +1,9 @@
+/* ------------------- */
+/* Required by unstack */
+/* ------------------- */
+.js-unstack {
+  position: fixed;
+}
+.is-released {
+  position: relative;
+}

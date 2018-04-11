@@ -74,13 +74,3 @@ h1 a {
 .card.info {
   position: fixed;
 }
-
-/* ------------------- */
-/* Required by unstack */
-/* ------------------- */
-.js-unstack {
-  position: fixed;
-}
-.is-released {
-  position: relative;
-}
