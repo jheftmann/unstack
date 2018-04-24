@@ -4,6 +4,15 @@ A plugin for showing content by unstacking it as a user scrolls. Based on the [S
 ## As a Small Victories Theme
 To use it as a Small Victories theme, go to https://github.com/smallvictories/developers.
 
+1. Download the Unstack theme files
+2. Create a new Small Victories site using the Feed Theme
+3. Replace the default `_sv_custom.js` and `_sv_custom.css` with the files from the Unstack Theme
+4. Add your own images (and other files) to your site folder.
+5. Optional: Add your own styles to `_sv_custom.css` if you want
+
+#### File types
+You can add images (.jpg, .png, .gif, .svg, etc.), .html, .md files. They will all follow the unstacking behavior.
+
 ## As a plugin
 1. Include `unstack.js` in your project. (You’ll also need jQuery.)
 ```

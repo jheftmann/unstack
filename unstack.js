@@ -12,7 +12,6 @@
         $('html, body').scrollTop(0);
 
         var objs = $(settings.objectClass);
-        console.log('objs: ' + objs);
 
         // set min height of layout based on number of moduleOffset
         var layoutHeight = function() {
@@ -41,7 +40,7 @@
         var obj = undefined;
         var calc = function(newObj) {
           obj = newObj;
-          $(obj).addClass('is-released');
+          $(obj).addClass('js-unstack-is-released');
           var id = $(obj).attr('id');
         }
 
@@ -67,7 +66,7 @@
           if (top < objTop) {
             var prevObj = $(obj).prev();
             if (prevObj.length) {
-              $(obj).removeClass('is-released');
+              $(obj).removeClass('js-unstack-is-released');
               calc(prevObj);
             }
           }

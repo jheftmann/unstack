@@ -4,6 +4,6 @@
 .js-unstack {
   position: fixed;
 }
-.is-released {
+.js-unstack-is-released {
   position: relative;
 }
