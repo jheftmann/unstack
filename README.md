@@ -31,7 +31,7 @@ You may need to change `.js-unstack` to a different object depending on your lay
 unstack();
 ```
 
-4. By default, `unstack` will look for sibling objects with the class `.js-unstack`. You can change this to match different objects depending on the structure of your page.
+4. By default, `unstack` will look for sibling objects with the class `.js-unstack`. You can use the `.js-unstack` class in your HTML or change this to match different objects depending on the structure of your page.
 ```
 unstack({
   objectClass: '.js-unstack',              // these are the objects you want to unstack

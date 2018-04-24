@@ -1,7 +1,7 @@
 /* ------------------- */
 /* Required by unstack */
 /* ------------------- */
-.js-unstack {
+.js-unstack-is-stacked {
   position: fixed;
 }
 .js-unstack-is-released {
