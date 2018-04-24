@@ -15,6 +15,8 @@ To use it as a Small Victories theme, go to https://github.com/smallvictories/de
 <link href="unstack.css" rel="stylesheet">
 ```
 
+You may need to change `.js-unstack` to a different object depending on your layout. This is the object you’re unstacking; it should match what you set in #4 (below).
+
 3. Call the `unstack` function in your JS:
 ```
 unstack();
