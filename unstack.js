@@ -1,4 +1,4 @@
-(function ( $ ) {
+(function ($) {
 
     unstack = function(options) {
 
@@ -12,6 +12,7 @@
         $('html, body').scrollTop(0);
 
         var objs = $(settings.objectClass);
+        console.log('objs: ' + objs);
 
         // set min height of layout based on number of moduleOffset
         var layoutHeight = function() {
@@ -87,4 +88,4 @@
       }
     };
 
-}( jQuery ));
+}(jQuery));
