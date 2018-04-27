@@ -6,4 +6,12 @@ $(document).ready(function() {
     layout: 'body' // this is the parent of the stacked objects
   });
 
+  addOpenGraph({
+    ogTitle: 'Title',                                // The title of your website
+    ogDescription: 'This is the description',        // A one to two sentence description of your website
+    ogType: 'website',                               // The type of website, e.g. article, blog (default set to 'website')
+    ogURL: 'http://www.yourwebsiteurl.com',                             // The URL for your website (where all your shares will be directed)
+    ogImage: '/path/to/images.jpg'                   // The image you want to be featured in social posts
+  });
+
 });
